@@ -72,8 +72,7 @@ chapter2_practice:
       type: mariadb
       server: localhost
       port: 3306 # optional
-      database: chapter2_practice # optional, should be same as schema
-      schema: [schema]
+      schema: chapter2_practice
       username: root
       password: mariadb
       driver: MySQL ODBC 8.0 ANSI Driver
