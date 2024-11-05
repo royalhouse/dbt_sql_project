@@ -1,7 +1,10 @@
 
+
+
+
 select 
     * 
 from 
     {{ref('taxi_trips')}}
 where 
-    distance > 9
+    pickup_borough != dropoff_borough

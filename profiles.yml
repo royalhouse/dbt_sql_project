@@ -77,3 +77,16 @@ chapter2_practice:
       password: mariadb
       driver: MySQL ODBC 8.0 ANSI Driver
     
+
+chapter3_practice:
+  target: dev
+  outputs:
+    dev:
+      type: mariadb
+      server: localhost
+      port: 3306  # optional
+      schema: chapter3_practice
+      username: root
+      password: mariadb
+      driver: MySQL ODBC 8.0 ANSI Driver
+    

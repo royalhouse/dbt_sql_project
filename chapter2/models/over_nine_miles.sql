@@ -8,14 +8,3 @@ where distance > 9
 
 
 
-
-select * from ({ref ('taxi_trips')})
-where payment = 'credit card'
-
-
-
-select * from ({ref('taxi_trips')})
-where pickup_borough != dropoff_borough
-
-select sum(passengers) from ({ref('taxi_trips')})
-where dropoff_borough ='Manhattan'
